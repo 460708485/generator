@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/config/base.properties=UTF-8
+encoding//src/config/jdbc.properties=UTF-8
+encoding//src/config/tblcomment.properties=UTF-8
+encoding//src/config/tbldef.properties=UTF-8
+encoding//src/generator=UTF-8
+encoding//src/template=UTF-8
+encoding/<project>=UTF-8

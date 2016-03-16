@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sqlMapConfig PUBLIC
+  "-//iBATIS.com//DTD SQL Map Config 2.0//EN" "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+
+<!-- iBATIS -->
+<!-- ======================================================================================== -->
+<sqlMapConfig>
+    <settings useStatementNamespaces="true" />
+
+<#list xmlPathList as xmlPath>
+    <sqlMap
+		resource="${xmlPath}" />
+</#list>
+
+</sqlMapConfig>
+<!-- ======================================================================================== -->
